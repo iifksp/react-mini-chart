@@ -1,6 +1,6 @@
 {
   "name": "react-mini-chart",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "react mini line chart",
   "main": "build/index.js",
   "scripts": {
