@@ -24,7 +24,7 @@
     "url": "https://github.com/iifksp/react-mini-chart/issues"
   },
   "homepage": "https://github.com/iifksp/react-mini-chart#readme",
-  "peerDependencies": {
+  "dependencies": {
     "prop-types": "^15.6.0",
     "react": "^16.0.0",
     "react-dom": "^16.0.0"
