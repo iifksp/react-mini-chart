@@ -55,7 +55,7 @@ class MiniChart extends React.Component {
 
     const paddingNum = `${padding}`.indexOf('%') >= 0 ? (parseInt(padding) / 100) * height : padding;
     const pointsY = dataSet.map(function (val) {
-      return (height) - (Math.round((val / (max - min)) * (height - paddingNum * 2)) + paddingNum * 2);
+      return height - (Math.round((( val - min) / (max - min)) * (height - paddingNum * 2)) + paddingNum);
     });
 
     this.points = [];
